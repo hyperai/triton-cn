@@ -14,7 +14,7 @@ Triton 中文文档项目由 [HyperAI 超神经](https://hyper.ai/) 社区志愿
 
 **您也可以：**
 
-🌟 在 GitHub star 本项目
+🌟 [在 GitHub star 本项目](https://github.com/hyperai/triton-cn)
 
 🙌🏻 添加微信 Hyperai01，备注 Triton 加入微信群参与讨论
 

@@ -100,6 +100,7 @@ const config: Config = {
           label: "查看文档",
         },
         { to: "/about", label: "关于", position: "left" },
+        {href: 'https://github.com/hyperai/triton-cn', label: 'GitHub', position: 'left'},
         { href: "https://hyper.ai", label: "返回超神经", position: "left" },
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {
