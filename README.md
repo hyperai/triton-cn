@@ -1,41 +1,34 @@
-# Triton 中文
+# Triton 中文文档
+[中文文档](https://triton.hyper.ai/)｜[了解更多](https://hyper.ai/)
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Triton 是一种用于并行编程的语言和编译器，旨在提供一个基于 Python 的编程环境，以高效编写自定义 DNN 计算内核，并能够在现代 GPU 硬件上以最大吞吐量运行。
 
-### Installation
+由于现有 Triton 相关的中文学习资料较为零散，不便于开发者系统性学习，我们在 GitHub 上创建了 Triton 文档翻译项目。
 
-```
-$ pnpm
-```
+随着 Triton 官方文档的更新，中文文档也会进行同步修订，你可以：
 
-### Local Development
+- 学习 Triton 中文文档，为翻译不准确或有歧义的地方 [提交 issue](https://github.com/hyperai/triton-cn/issues) 或 [PR](https://github.com/hyperai/triton-cn/pulls)
+- 参与开源协作、追踪文档更新，并认领文档翻译，成为 Triton 中文文档贡献者
+- 加入 Triton 中文社区、结识志同道合的伙伴，并参与深入的讨论和交流。
 
-```
-$ pnpm start
-```
+衷心希望能够通过这个项目，为 Triton 中文社区的发展贡献一份绵薄之力。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## 参与贡献
 
-```
-$ pnpm build
-```
+本地开发服务器需先安装 Node.js 以及 [pnpm](https://pnpm.io/installation)。
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true pnpm deploy
+```bash
+pnpm install
+pnpm start
 ```
 
-Not using SSH:
+## 创建新版本
 
-```
-$ GIT_USER=<Your GitHub username> pnpm deploy
+如果当前版本为 `0.12.0`，想升到 `0.13.0`，那么你需要先保存当前版本
+
+```bash
+pnpm run docusaurus docs:version 0.12.0
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+然后编辑 `docusaurus.config.ts` 中 `versions.current.label` 为最新版本 `0.13.0`
