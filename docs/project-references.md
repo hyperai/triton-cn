@@ -14,7 +14,7 @@ https://github.com/microsoft/DeepSpeed
 
 - 支持多种商业规模模型的真实世界用例（例如 BLOOM、Megatron GPT、LLAMA、Microsoft Phi）
 
-DeepSpeed 集成了 Triton，提高了 BERT 类模型在 float16 精度下的推理速度。为不同的模型和 GPU 实现了 1.14~1.68 倍的加速（或 12~41% 的延迟减少）。
+DeepSpeed 集成了 Triton，提高了 BERT 类模型在 float16 精度下的推理速度。为不同的模型和 GPU 实现了 1.14-1.68 倍的加速（或 12-41% 的延迟减少）。
 
 # pytorch-lightning
 
