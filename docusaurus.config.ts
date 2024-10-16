@@ -100,7 +100,11 @@ const config: Config = {
           label: "查看文档",
         },
         { to: "/about", label: "关于", position: "left" },
-        {href: 'https://github.com/hyperai/triton-cn', label: 'GitHub', position: 'left'},
+        {
+          href: "https://github.com/hyperai/triton-cn",
+          label: "GitHub",
+          position: "left",
+        },
         { href: "https://hyper.ai", label: "返回超神经", position: "left" },
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {
@@ -120,6 +124,14 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  scripts: [
+    {
+      src: "https://get.openbayes.net/js/script.js",
+      defer: true,
+      "data-domain": "triton.hyper.ai",
+    },
+  ],
 };
 
 export default config;
