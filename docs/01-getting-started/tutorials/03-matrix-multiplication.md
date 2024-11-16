@@ -124,7 +124,7 @@ pid_n = pid % grid_n
 pid = tl.program_id(axis=0)
 # Number of program ids along the M axis
 # M 轴上程序 id 的数量
-num_pid_m = tl
+num_pid_m = tl.cdiv(M, BLOCK_SIZE_M)
 # Number of programs ids along the N axis
 # N 轴上程序 id 的数量
 num_pid_n = tl.cdiv(N, BLOCK_SIZE_N)
