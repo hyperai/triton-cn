@@ -36,7 +36,7 @@ triton.language.store(pointer, value, mask=None, boundary_check=(), cache_modifi
 
 * 可以指定 `boundary_check` 以控制越界访问的行为。
 
-*value* 会被隐式地广播为 *pointer.shaoe* ，并转换为 *pointer.element_ty* 类型。
+*value* 会被隐式地广播为 *pointer.shape* ，并转换为 *pointer.element_ty* 类型。
 
 
 **参数****：**
