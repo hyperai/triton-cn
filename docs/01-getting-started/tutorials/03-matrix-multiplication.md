@@ -143,10 +143,10 @@ group_size_m = min(num_pid_m - first_pid_m, GROUP_SIZE_M)
 # *Within groups*, programs are ordered in a column-major order
 # 在组内，程序按列主序排序。
 # Row-id of the program in the *launch grid*
-# 程序的行 id
+# 启动网格中程序的行 id
 pid_m = first_pid_m + ((pid % num_pid_in_group) % group_size_m)
 # Col-id of the program in the *launch grid*
-# 启动网格中的程序的行 id
+# 启动网格中程序的列 id
 pid_n = (pid % num_pid_in_group) // group_size_m
 ```
 
