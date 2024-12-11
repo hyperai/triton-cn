@@ -2,11 +2,11 @@
 title: 层标准化
 ---
 
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/EC3Euf81ZW2)
+
 在本教程中，你将编写一个比 PyTorch 实现运行更快的高性能层标准化 (layer normalization) 内核。
 
-
 在此过程中，你将了解：
-
 
 * 在 Triton 中实现反向传播 (backward pass)。
 * 在 Triton 中实现并行归约 (parallel reduction)。
