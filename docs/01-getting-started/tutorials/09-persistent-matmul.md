@@ -2,7 +2,7 @@
 title: 持久矩阵乘法 (Persistent Matmul)
 ---
 
-[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/HMjXImmXZFV)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/HMjXImmXZFV)
 
 该脚本展示了使用 Triton 进行矩阵乘法的持久化内核实现 (persistent kernel implementations)。包含多种矩阵乘法方法，例如基础的朴素方法 (naive)、持久化方法 (persistent) 以及基于张量内存加速器（TMA,Tensor Memory Accelerator）的方法。这些内核同时支持半精度浮点数（FP16）和 8 位浮点数（FP8）数据类型，但 FP8 的实现仅在计算能力大于等于 9.0 的 CUDA 设备上可用。
 
