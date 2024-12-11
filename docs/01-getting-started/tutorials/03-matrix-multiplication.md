@@ -2,7 +2,7 @@
 title: 矩阵乘法
 ---
 
-[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/dheUrOfGo5m)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/dheUrOfGo5m)
 
 在本教程中，您将编写一个非常简短的高性能 FP16 矩阵乘法内核，其性能可以与 cuBLAS 或 rocBLAS 相媲美。
 
