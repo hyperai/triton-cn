@@ -2,7 +2,7 @@
 title: 分组 GEMM
 ---
 
-[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/HTr2JbfRjsl)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/HTr2JbfRjsl)
 
 分组 GEMM 内核通过启动固定数量的 CTA 来计算一组 gemms。调度是静态的，并且在设备上完成。
 
