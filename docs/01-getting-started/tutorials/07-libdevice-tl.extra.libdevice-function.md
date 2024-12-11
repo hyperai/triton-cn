@@ -2,7 +2,7 @@
 title: Libdevice (tl_extra.libdevice) 函数
 ---
 
-[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/RFagQOhvTsc)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/RFagQOhvTsc)
 
 Triton 可以调用外部库中的自定义函数。在这个例子中，我们将使用 libdevice 库在张量上应用 asin 函数。请参考以下链接获取关于所有可用 libdevice 函数语义的详细信息：
 
