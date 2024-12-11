@@ -2,6 +2,8 @@
 title: 融合注意力 (Fused Attention)
 ---
 
+[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/om2XKloXGTB)
+
 这是根据 [Tri Dao 的 Flash Attention v2 算法](https://tridao.me/publications/flash2/flash2.pdf)的 Triton 实现。致谢：OpenAI 核心团队
 
 
