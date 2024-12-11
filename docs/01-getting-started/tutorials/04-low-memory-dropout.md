@@ -2,7 +2,7 @@
 title: 低内存 Dropout
 ---
 
-[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/mkRMwoRH87l)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/mkRMwoRH87l)
 
 在本教程中，您将编写一个内存高效的 Dropout 实现，其状态将由单个 int32 seed 组成。这与传统 Dropout 实现不同，传统实现通常由与输入 shape 相同的位掩码张量组成。
 
