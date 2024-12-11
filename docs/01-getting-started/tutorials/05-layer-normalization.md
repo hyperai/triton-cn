@@ -2,7 +2,7 @@
 title: 层标准化
 ---
 
-[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/EC3Euf81ZW2)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/EC3Euf81ZW2)
 
 在本教程中，你将编写一个比 PyTorch 实现运行更快的高性能层标准化 (layer normalization) 内核。
 
