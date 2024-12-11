@@ -2,7 +2,7 @@
 title: 向量相加
 ---
 
-[<font face="黑体" color=CadetBlue size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/YSztKYdMWSL)
+[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/YSztKYdMWSL)
 
 在本教程中，你将使用 Triton 编写一个简单的向量相加 (vector addition) 程序。
 
