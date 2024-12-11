@@ -2,6 +2,8 @@
 title: 融合 Softmax (Fused Softmax)
 ---
 
+[<font face="黑体" size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/QEhTxGYyzqY)
+
 在本教程中，您将编写一个融合的 softmax 操作，该操作在某些类别的矩阵上比 PyTorch 的原生操作快得多：即那些可以适应 GPU 静态随机存取存储器 (SRAM) 的行。
 
 
