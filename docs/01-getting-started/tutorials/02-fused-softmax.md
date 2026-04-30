@@ -192,6 +192,8 @@ def softmax(x):
         y.stride(0),
         n_rows,
         n_cols,
+        BLOCK_SIZE,
+        num_stages,
     )
     return y
 ```
