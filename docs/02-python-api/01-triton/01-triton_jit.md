@@ -18,7 +18,7 @@ triton.jit(*, version=None, repr: Callable | None = None, launch_metadata: Calla
 
 **注意：**
 
-* 此函数将在 GPU 上编译和运行。它只能访问以下内容：
+* 此函数将被编译并在 GPU 上运行。它只能访问以下内容：
    * Python 原语，
    * Triton 包内的内置函数，
    * 此函数的参数，
